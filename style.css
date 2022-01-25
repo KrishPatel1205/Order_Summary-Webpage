@@ -1,0 +1,152 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap");
+
+:root {
+  --paleBlue: hsl(225, 100%, 94%);
+  --brightBlue: hsl(245, 75%, 52%);
+  --veryPaleBlue: hsl(225, 100%, 98%);
+  --desaturatedBlue: hsl(224, 23%, 55%);
+  --darkBlue: hsl(223, 47%, 23%);
+}
+
+body {
+  font-family: "Red Hat Display", sans-serif;
+  background-image: url(./images/pattern-background-desktop.svg);
+  background-repeat: repeat-x;
+  background-color: var(--paleBlue);
+  color: var(--desaturatedBlue);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+  min-width: 450px;
+}
+
+.container {
+  background-color: var(--veryPaleBlue);
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  max-width: 450px;
+}
+
+.img__container {
+  max-width: 100%;
+  margin: 0;
+}
+
+img {
+  max-width: 100%;
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+}
+
+h1 {
+  text-align: center;
+  color: black;
+}
+
+p {
+  text-align: center;
+}
+
+.about {
+  font-size: 18px;
+  font-weight: 500;
+  padding-left: 3.5rem;
+  padding-right: 3.5rem;
+}
+
+.subcontainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0;
+  justify-content: space-between;
+  margin: 2rem;
+  border-radius: 1rem;
+  background-color: hsla(224, 23%, 55%, 0.2);
+}
+
+.dets {
+  display: flex;
+  flex-direction: column;
+  width: -webkit-fill-available;
+}
+
+.subcontainer__img {
+  margin: 0;
+  margin-left: 1rem;
+}
+
+.subheading__plan {
+  text-align: left;
+  align-items: left;
+  justify-content: center;
+  margin: 0;
+  margin-top: 1rem;
+  width: -webkit-fill-available;
+  margin-left: 1rem;
+  height: 24px;
+  color: black;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.plan__change {
+  color: var(--brightBlue);
+  text-decoration: underline;
+  text-align: right;
+  justify-content: center;
+  align-items: center;
+  width: -webkit-fill-available;
+  margin-right: 1rem;
+  height: 10px;
+  font-weight: 500;
+}
+
+.plan__price {
+  text-align: left;
+  color: var(--desaturatedBlue);
+  margin-top: 0;
+  margin-bottom: 1rem;
+  margin-left: 1rem;
+  height: 18px;
+  font-weight: 500;
+}
+
+.plan__payment {
+  display: block;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  border-radius: 1rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  background-color: var(--brightBlue);
+  color: var(--veryPaleBlue);
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.plan__cancel {
+  font-weight: 700;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+@media (min-width: 450px) {
+}
